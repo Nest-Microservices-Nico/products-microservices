@@ -4,9 +4,9 @@ steps:
       [
         'build',
         '-t',
-        southamerica-west1-docker.pkg.dev/tienda-microservicios-456723/images-registry/products-ms',
+        'southamerica-west1-docker.pkg.dev/tienda-microservicios-456723/images-registry/products-ms',
         '-f',
-        'dockerfile.prod',
+        'Dockerfile.prod',
         '--platform=linux/amd64',
         '.',
       ]
